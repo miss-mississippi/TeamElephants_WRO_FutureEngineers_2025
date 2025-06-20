@@ -8,9 +8,9 @@ Repository of Team Elephants for WRO Future Engineers 2025 National Stage
 # Repository Overview:
 - models - contains 3D Printable and CNC files designed by us
 - schemes - contains the electrical systems schematics
-- src - contains the main programs and control software and
-- t-photos - contains one serious and one funny photo
-- v-photos - contains the photos of the robot from all required directions
+- src - contains the main programs and control software 
+- t-photos - photos of our team members
+- v-photos - contains the photos of the robot from required directions
 
 # Program Arrangement and Algorithm Planning – EV3-Based Robot with Raspberry Pi Vision
 Our robot is based on the LEGO Mindstorms EV3 platform and uses a Raspberry Pi as a co-processor for vision tasks. A USB webcam is connected to the Raspberry Pi to detect obstacles and corner markers, while the EV3 brick handles motor control and sensor feedback. Orientation tracking is done using the MPU6050 gyroscope/accelerometer connected to the EV3 or Raspberry Pi. The system runs fully autonomously to detect run direction, complete laps with wall and obstacle avoidance, and stop after three full laps.
